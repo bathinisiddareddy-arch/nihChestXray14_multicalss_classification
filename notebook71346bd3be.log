@@ -1,0 +1,483 @@
+6.3s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.3s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.3s 3 0.00s - to python to disable frozen modules.
+6.3s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+6.8s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.8s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.8s 7 0.00s - to python to disable frozen modules.
+6.8s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.7s 9 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/50.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m30.7/50.2 kB[0m [31m1.7 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m50.2/50.2 kB[0m [31m665.4 kB/s[0m eta [36m0:00:00[0m
+11.7s 10 [?25h  Preparing metadata (setup.py) ... [?25l[?25hdone
+11.9s 11 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/44.5 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m44.5/44.5 kB[0m [31m1.5 MB/s[0m eta [36m0:00:00[0m
+16.6s 12 [?25h  Installing build dependencies ... [?25l[?25hdone
+16.8s 13 Getting requirements to build wheel ... [?25l[?25hdone
+17.1s 14 Preparing metadata (pyproject.toml) ... [?25l[?25hdone
+17.4s 15 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/42.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m42.2/42.2 kB[0m [31m1.5 MB/s[0m eta [36m0:00:00[0m
+18.1s 16 [?25h  Preparing metadata (setup.py) ... [?25l[?25hdone
+19.0s 17 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/129.6 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m81.9/129.6 kB[0m [31m4.5 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m129.6/129.6 kB[0m [31m1.9 MB/s[0m eta [36m0:00:00[0m
+20.4s 18 [?25h  Building wheel for fvcore (setup.py) ... [?25l[?25hdone
+20.6s 19 Building wheel for grad-cam (pyproject.toml) ... [?25l[?25hdone
+21.8s 20 Building wheel for iopath (setup.py) ... [?25l[?25hdone
+24.5s 21 [console log] mirroring stdout/stderr to results/logs/console_log_20261015_011806.txt
+44.6s 22 [Phase 0] Found persisted results at /kaggle/input/datasets/bchinnaankanna/final-results/persisted_results -- treating this as a restart and restoring from it.
+94.6s 23 Restored 116 files from /kaggle/input/datasets/bchinnaankanna/final-results/persisted_results -> results/ (0 already up to date, skipped)
+94.6s 24 results/checkpoints: 10 files
+94.6s 25 results/thresholds: 5 files
+94.6s 26 results/configs: 5 files
+94.6s 27 results/histories: 5 files
+94.6s 28 results/metrics: 11 files
+94.6s 29 results/predictions: 5 files
+94.6s 30 results/calibration: 5 files
+95.9s 31 ======================================================================
+95.9s 32 ENVIRONMENT REPORT
+95.9s 33 ======================================================================
+95.9s 34 Python           : 3.13.15
+95.9s 35 Platform         : Linux-6.18.48+-x86_64-with-glibc2.39
+95.9s 36 PyTorch          : 2.11.0+cu128
+96.1s 37 CUDA available   : True
+96.1s 38 GPU              : Tesla T4
+96.1s 39 GPU memory (GB)  : 15.6
+96.1s 40 TPU              : not detected
+96.1s 41 
+96.1s 42 All required packages are importable.
+96.1s 43 ======================================================================
+862.1s 44 [dataset check] root=/kaggle/input/datasets/nih-chest-xrays/data
+862.1s 45 [dataset check] images found: 112120
+862.1s 46 [dataset check] sample image: /kaggle/input/datasets/nih-chest-xrays/data/images_001/images/00000001_000.png
+877.7s 47 full_path remapped against current dataset mount (112120 images found).
+877.7s 48 Loaded existing, already-split image_index.csv (112120 rows) from a previous session -- skipping re-scan and re-split.
+877.7s 49 {
+877.7s 50 "n_dev_images": 86524,
+877.7s 51 "n_test_images": 25596,
+877.7s 52 "n_dev_patients": 28008,
+877.7s 53 "n_test_patients": 2797,
+877.7s 54 "test_fraction_images": 0.22829111666072066,
+877.7s 55 "patient_overlap": 0
+877.7s 56 }
+877.7s 57 [saved] results/metrics/split_report.json
+877.8s 58 Fold assignment already present in image_index.csv (restored from a previous session) -- reusing it, NOT recomputing.
+877.9s 59 {0.0: 5602, 1.0: 5602, 2.0: 5601, 3.0: 5602, 4.0: 5601}
+877.9s 60 ============================================================
+877.9s 61 5-FOLD CV LEAKAGE AUDIT
+877.9s 62 ============================================================
+877.9s 63 status                : PASS -- no leakage detected, full coverage confirmed
+877.9s 64 n_folds               : 5
+877.9s 65 n_dev_patients        : 28008
+877.9s 66 n_dev_images          : 86524
+877.9s 67 n_test_patients       : 2797
+877.9s 68 patients_per_fold     : {'fold_0': 5602, 'fold_1': 5602, 'fold_2': 5601, 'fold_3': 5602, 'fold_4': 5601}
+877.9s 69 images_per_fold       : {'fold_0': 17496, 'fold_1': 17688, 'fold_2': 17017, 'fold_3': 16897, 'fold_4': 17426}
+877.9s 70 ============================================================
+877.9s 71 [saved] results/metrics/cv_fold_leakage_audit.json
+878.0s 72 [export_fold_splits_pkl] fold 0: 69028 train images (22406 patients), 17496 val images (5602 patients) -> results/folds/fold_0.pkl
+878.2s 73 [export_fold_splits_pkl] fold 1: 68836 train images (22406 patients), 17688 val images (5602 patients) -> results/folds/fold_1.pkl
+878.2s 74 [export_fold_splits_pkl] fold 2: 69507 train images (22407 patients), 17017 val images (5601 patients) -> results/folds/fold_2.pkl
+878.2s 75 [export_fold_splits_pkl] fold 3: 69627 train images (22406 patients), 16897 val images (5602 patients) -> results/folds/fold_3.pkl
+878.2s 76 [export_fold_splits_pkl] fold 4: 69098 train images (22407 patients), 17426 val images (5601 patients) -> results/folds/fold_4.pkl
+878.2s 77 [export_fold_splits_pkl] test: 25596 images (2797 patients) -> results/folds/test_split.pkl
+879.4s 78 Single-model run: ConvNeXt-V2-Tiny only (Phase 10 below).
+879.4s 79 Ablation matrix (backbone/component comparison rows) skipped -- ConvNeXt-V2-Tiny-only mode. Call run_ablation_matrix(index_df, n_folds=..., smoke_test=...) directly later if you want the full backbone/component comparison.
+879.6s 80 [ConvFormerS18_SAIL_only] === Fold 1/5 (fold index 0) ===
+879.6s 81 [ConvFormerS18_SAIL_only] Fold 0: results/metrics/fold0_ConvFormerS18_SAIL_only.json already exists -- skipping (fully completed in a previous session).
+879.6s 82 [ConvFormerS18_SAIL_only] === Fold 2/5 (fold index 1) ===
+879.6s 83 [ConvFormerS18_SAIL_only] Fold 1: results/metrics/fold1_ConvFormerS18_SAIL_only.json already exists -- skipping (fully completed in a previous session).
+879.6s 84 [ConvFormerS18_SAIL_only] === Fold 3/5 (fold index 2) ===
+879.6s 85 [ConvFormerS18_SAIL_only] Fold 2: results/metrics/fold2_ConvFormerS18_SAIL_only.json already exists -- skipping (fully completed in a previous session).
+879.6s 86 [ConvFormerS18_SAIL_only] === Fold 4/5 (fold index 3) ===
+879.6s 87 [ConvFormerS18_SAIL_only] Fold 3: results/metrics/fold3_ConvFormerS18_SAIL_only.json already exists -- skipping (fully completed in a previous session).
+879.6s 88 [ConvFormerS18_SAIL_only] === Fold 5/5 (fold index 4) ===
+879.6s 89 [ConvFormerS18_SAIL_only] Fold 4: results/metrics/fold4_ConvFormerS18_SAIL_only.json already exists -- skipping (fully completed in a previous session).
+892.3s 90 [plots] ConvFormerS18_SAIL_only fold 0: 4 figure(s) -> results/figures
+901.2s 91 [plots] ConvFormerS18_SAIL_only fold 1: 4 figure(s) -> results/figures
+909.3s 92 [plots] ConvFormerS18_SAIL_only fold 2: 4 figure(s) -> results/figures
+919.0s 93 [plots] ConvFormerS18_SAIL_only fold 3: 4 figure(s) -> results/figures
+927.1s 94 [plots] ConvFormerS18_SAIL_only fold 4: 4 figure(s) -> results/figures
+927.1s 95 [plots] ConvFormerS18_SAIL_only: 23 figure(s) written -> results/figures
+927.1s 96 Cross-validation summary (mean +/- std across folds):
+927.1s 97 macro_auroc  macro_auprc  micro_auroc  weighted_auroc  micro_auprc  \
+927.1s 98 mean     0.835527     0.240806     0.880987        0.812321     0.332470
+927.1s 99 std      0.006561     0.011335     0.003179        0.005485     0.009959
+927.1s 100 
+927.1s 101 weighted_auprc  macro_f1  micro_f1  weighted_f1  macro_precision  ...  \
+927.1s 102 mean        0.323222  0.308183  0.361493     0.375663         0.280134  ...
+927.1s 103 std         0.007933  0.010909  0.005459     0.005552         0.015902  ...
+927.1s 104 
+927.1s 105 mean_sensitivity  mean_specificity  mean_npv  balanced_accuracy_macro  \
+927.1s 106 mean          0.384833          0.943947  0.972930                 0.664390
+927.1s 107 std           0.025588          0.009519  0.000933                 0.008281
+927.1s 108 
+927.1s 109 hamming_loss  jaccard_samples  jaccard_macro  subset_accuracy  \
+927.1s 110 mean      0.074690         0.123309       0.188847         0.448347
+927.1s 111 std       0.006958         0.010723       0.008330         0.044924
+927.1s 112 
+927.1s 113 mcc_macro  cohen_kappa_macro
+927.1s 114 mean   0.281336           0.270849
+927.1s 115 std    0.010833           0.009001
+927.1s 116 
+927.1s 117 [2 rows x 25 columns]
+928.2s 118 ==================================================
+928.2s 119 LEAKAGE AUDIT (must all be zero/False before proceeding)
+928.2s 120 ==================================================
+928.2s 121 patient_overlap                    : 0
+928.2s 122 image_overlap                      : 0
+928.2s 123 test_used_for_tuning               : False
+928.2s 124 thresholds_learned_from_test       : False
+928.2s 125 calibration_learned_from_test      : False
+928.2s 126 ==================================================
+2104.5s 127 {
+2104.5s 128 "n_parameters_total": 29681998,
+2104.5s 129 "n_parameters_trainable": 29681998,
+2104.5s 130 "batch_size": 16,
+2104.5s 131 "image_size": 384,
+2104.5s 132 "batch_latency_ms": 238.02655696868896,
+2104.5s 133 "per_image_latency_ms": 14.87665981054306,
+2104.5s 134 "images_per_second": 67.21939015445537,
+2104.5s 135 "peak_gpu_memory_mb": 788.980736,
+2104.5s 136 "device": "cuda"
+2104.5s 137 }
+2104.5s 138 FINAL TEST macro-AUROC: 0.8080, macro-AUPRC: 0.2662, macro-F1: 0.3209
+2148.4s 139 Figures 15-18 written to results/figures/.
+2148.4s 140 Phase 11b (second baseline test evaluation) skipped -- single-model (ConvNeXt-V2-Tiny) run, per request. No paired comparison will run in Phase 12.
+2150.4s 141 ==================================================
+2150.4s 142 LEAKAGE AUDIT (must all be zero/False before proceeding)
+2150.4s 143 ==================================================
+2150.4s 144 patient_overlap                    : 0
+2150.4s 145 image_overlap                      : 0
+2150.4s 146 test_used_for_tuning               : False
+2150.4s 147 thresholds_learned_from_test       : False
+2150.4s 148 calibration_learned_from_test      : False
+2150.4s 149 ==================================================
+3323.7s 150 {
+3323.7s 151 "n_parameters_total": 29681998,
+3323.7s 152 "n_parameters_trainable": 29681998,
+3323.7s 153 "batch_size": 16,
+3323.7s 154 "image_size": 384,
+3323.7s 155 "batch_latency_ms": 237.62568950653076,
+3323.7s 156 "per_image_latency_ms": 14.851605594158173,
+3323.7s 157 "images_per_second": 67.33278726398083,
+3323.7s 158 "peak_gpu_memory_mb": 907.789824,
+3323.7s 159 "device": "cuda"
+3323.7s 160 }
+3323.7s 161 FINAL TEST macro-AUROC: 0.8112, macro-AUPRC: 0.2788, macro-F1: 0.3252
+3325.4s 162 ==================================================
+3325.4s 163 LEAKAGE AUDIT (must all be zero/False before proceeding)
+3325.4s 164 ==================================================
+3325.4s 165 patient_overlap                    : 0
+3325.4s 166 image_overlap                      : 0
+3325.4s 167 test_used_for_tuning               : False
+3325.4s 168 thresholds_learned_from_test       : False
+3325.4s 169 calibration_learned_from_test      : False
+3325.4s 170 ==================================================
+4499.1s 171 {
+4499.1s 172 "n_parameters_total": 29681998,
+4499.1s 173 "n_parameters_trainable": 29681998,
+4499.1s 174 "batch_size": 16,
+4499.1s 175 "image_size": 384,
+4499.1s 176 "batch_latency_ms": 237.77725219726562,
+4499.1s 177 "per_image_latency_ms": 14.861078262329102,
+4499.1s 178 "images_per_second": 67.28986836270622,
+4499.1s 179 "peak_gpu_memory_mb": 907.789824,
+4499.1s 180 "device": "cuda"
+4499.1s 181 }
+4499.1s 182 FINAL TEST macro-AUROC: 0.8088, macro-AUPRC: 0.2729, macro-F1: 0.3273
+4500.7s 183 ==================================================
+4500.7s 184 LEAKAGE AUDIT (must all be zero/False before proceeding)
+4500.7s 185 ==================================================
+4500.7s 186 patient_overlap                    : 0
+4500.7s 187 image_overlap                      : 0
+4500.7s 188 test_used_for_tuning               : False
+4500.7s 189 thresholds_learned_from_test       : False
+4500.7s 190 calibration_learned_from_test      : False
+4500.7s 191 ==================================================
+5674.5s 192 {
+5674.5s 193 "n_parameters_total": 29681998,
+5674.5s 194 "n_parameters_trainable": 29681998,
+5674.5s 195 "batch_size": 16,
+5674.5s 196 "image_size": 384,
+5674.5s 197 "batch_latency_ms": 237.7007007598877,
+5674.5s 198 "per_image_latency_ms": 14.856293797492981,
+5674.5s 199 "images_per_second": 67.31153904406167,
+5674.5s 200 "peak_gpu_memory_mb": 907.789824,
+5674.5s 201 "device": "cuda"
+5674.5s 202 }
+5674.5s 203 FINAL TEST macro-AUROC: 0.8128, macro-AUPRC: 0.2785, macro-F1: 0.3397
+5676.2s 204 ==================================================
+5676.2s 205 LEAKAGE AUDIT (must all be zero/False before proceeding)
+5676.2s 206 ==================================================
+5676.2s 207 patient_overlap                    : 0
+5676.2s 208 image_overlap                      : 0
+5676.2s 209 test_used_for_tuning               : False
+5676.2s 210 thresholds_learned_from_test       : False
+5676.2s 211 calibration_learned_from_test      : False
+5676.2s 212 ==================================================
+6851.4s 213 {
+6851.4s 214 "n_parameters_total": 29681998,
+6851.4s 215 "n_parameters_trainable": 29681998,
+6851.4s 216 "batch_size": 16,
+6851.4s 217 "image_size": 384,
+6851.4s 218 "batch_latency_ms": 237.7333927154541,
+6851.4s 219 "per_image_latency_ms": 14.858337044715881,
+6851.4s 220 "images_per_second": 67.30228268416036,
+6851.4s 221 "peak_gpu_memory_mb": 907.789824,
+6851.4s 222 "device": "cuda"
+6851.4s 223 }
+6851.4s 224 FINAL TEST macro-AUROC: 0.8114, macro-AUPRC: 0.2882, macro-F1: 0.3421
+6859.5s 225 [ConvFormerS18_SAIL_only] 5-fold ensemble on test: macro-AUROC 0.8243, macro-AUPRC 0.2980, macro-F1 0.3539
+6859.5s 226 TEST macro-AUROC over 5 fold model(s): 0.8104 +/- 0.0020   macro-AUPRC: 0.2769 +/- 0.0081   macro-F1: 0.3310 +/- 0.0093
+6876.2s 227 [plots] ConvFormerS18_SAIL_only fold 0: 6 figure(s) -> results/figures
+6891.5s 228 [plots] ConvFormerS18_SAIL_only fold 1: 6 figure(s) -> results/figures
+6905.3s 229 [plots] ConvFormerS18_SAIL_only fold 2: 6 figure(s) -> results/figures
+6921.0s 230 [plots] ConvFormerS18_SAIL_only fold 3: 6 figure(s) -> results/figures
+6934.8s 231 [plots] ConvFormerS18_SAIL_only fold 4: 6 figure(s) -> results/figures
+6934.8s 232 [plots] ConvFormerS18_SAIL_only: 33 figure(s) written -> results/figures
+7669.3s 233 gradcam: mean_iou=0.1324 (n=984)
+7669.3s 234 gradcam++: mean_iou=0.1951 (n=984)
+7669.3s 235 eigencam: mean_iou=0.0911 (n=984)
+7669.3s 236 [hook check] hooks on final_model before robustness: 0
+7669.3s 237 [hook check] hooks after cleanup: 0
+7670.7s 238 [gaussian_noise] severity=0: loaded from ConvFormerS18_SAIL_only__gaussian_noise__sev0.json (macro_auroc=0.8041)
+7670.7s 239 [gaussian_noise] severity=1: loaded from ConvFormerS18_SAIL_only__gaussian_noise__sev1.json (macro_auroc=0.8052)
+7670.7s 240 [gaussian_noise] severity=2: loaded from ConvFormerS18_SAIL_only__gaussian_noise__sev2.json (macro_auroc=0.8033)
+7670.7s 241 [gaussian_noise] severity=3: loaded from ConvFormerS18_SAIL_only__gaussian_noise__sev3.json (macro_auroc=0.7820)
+7670.7s 242 [gaussian_noise] severity=4: loaded from ConvFormerS18_SAIL_only__gaussian_noise__sev4.json (macro_auroc=0.7209)
+7670.7s 243 [gaussian_noise] severity=5: loaded from ConvFormerS18_SAIL_only__gaussian_noise__sev5.json (macro_auroc=0.6656)
+7672.2s 244 [blur] severity=0: loaded from ConvFormerS18_SAIL_only__blur__sev0.json (macro_auroc=0.8041)
+7672.2s 245 [blur] severity=1: loaded from ConvFormerS18_SAIL_only__blur__sev1.json (macro_auroc=0.8041)
+7672.2s 246 [blur] severity=2: loaded from ConvFormerS18_SAIL_only__blur__sev2.json (macro_auroc=0.8041)
+7672.2s 247 [blur] severity=3: loaded from ConvFormerS18_SAIL_only__blur__sev3.json (macro_auroc=0.8032)
+7672.2s 248 [blur] severity=4: loaded from ConvFormerS18_SAIL_only__blur__sev4.json (macro_auroc=0.8006)
+7672.2s 249 [blur] severity=5: loaded from ConvFormerS18_SAIL_only__blur__sev5.json (macro_auroc=0.7957)
+7673.6s 250 [jpeg_compression] severity=0: loaded from ConvFormerS18_SAIL_only__jpeg_compression__sev0.json (macro_auroc=0.8042)
+7673.6s 251 [jpeg_compression] severity=1: loaded from ConvFormerS18_SAIL_only__jpeg_compression__sev1.json (macro_auroc=0.8048)
+7673.6s 252 [jpeg_compression] severity=2: loaded from ConvFormerS18_SAIL_only__jpeg_compression__sev2.json (macro_auroc=0.8051)
+7673.6s 253 [jpeg_compression] severity=3: loaded from ConvFormerS18_SAIL_only__jpeg_compression__sev3.json (macro_auroc=0.8044)
+7673.6s 254 [jpeg_compression] severity=4: loaded from ConvFormerS18_SAIL_only__jpeg_compression__sev4.json (macro_auroc=0.7933)
+7673.6s 255 [jpeg_compression] severity=5: loaded from ConvFormerS18_SAIL_only__jpeg_compression__sev5.json (macro_auroc=0.7001)
+7675.0s 256 [contrast_shift] severity=0: loaded from ConvFormerS18_SAIL_only__contrast_shift__sev0.json (macro_auroc=0.8041)
+7675.0s 257 [contrast_shift] severity=1: loaded from ConvFormerS18_SAIL_only__contrast_shift__sev1.json (macro_auroc=0.8034)
+7675.0s 258 [contrast_shift] severity=2: loaded from ConvFormerS18_SAIL_only__contrast_shift__sev2.json (macro_auroc=0.8021)
+7675.0s 259 [contrast_shift] severity=3: loaded from ConvFormerS18_SAIL_only__contrast_shift__sev3.json (macro_auroc=0.8014)
+7675.0s 260 [contrast_shift] severity=4: loaded from ConvFormerS18_SAIL_only__contrast_shift__sev4.json (macro_auroc=0.7995)
+7675.0s 261 [contrast_shift] severity=5: loaded from ConvFormerS18_SAIL_only__contrast_shift__sev5.json (macro_auroc=0.7940)
+7675.0s 262 (No second baseline trained -- robustness reported for ConvNeXt-V2-Tiny only. Robustness is single-view (no TTA): compare each severity with severity 0, not with the 3-view TTA test AUROC.)
+15309.8s 263 MC-Dropout sanity check: mean per-label std = 0.010072, max = 0.068118 (20 passes)
+15309.8s 264 H5 (uncertainty vs. error): {
+15309.8s 265 "spearman_rho": 0.4505910288483754,
+15309.8s 266 "p_value": 0.0,
+15309.8s 267 "n": 25596,
+15309.8s 268 "interpretation": "higher uncertainty is associated with higher error (supports H5)"
+15309.8s 269 }
+15309.8s 270 H5 coupling test (Mann-Whitney/Brunner-Munzel): {
+15309.8s 271 "n_correct": 5364,
+15309.8s 272 "n_incorrect": 20232,
+15309.8s 273 "median_uncertainty_correct": 0.007308968808501959,
+15309.8s 274 "median_uncertainty_incorrect": 0.010169725865125656,
+15309.8s 275 "incorrect_to_correct_ratio": 1.3914036482541832,
+15309.8s 276 "mann_whitney_p": 0.0,
+15309.8s 277 "rank_biserial_effect_size": 0.6222766965836122,
+15309.8s 278 "brunner_munzel_p": 0.0,
+15309.8s 279 "brunner_munzel_skipped_reason": null,
+15309.8s 280 "interpretation": "incorrect samples show significantly higher uncertainty (supports H5, coupling confirmed)"
+15309.8s 281 }
+15309.8s 282 H5 four-group breakdown (True/False x Confident/Uncertain): {
+15309.8s 283 "uncertainty_threshold": 0.013793226331472397,
+15309.8s 284 "true_confident": 5118,
+15309.8s 285 "true_uncertain": 246,
+15309.8s 286 "false_uncertain": 2314,
+15309.8s 287 "false_confident": 17918,
+15309.8s 288 "false_uncertain_rate": 0.11437327006722024,
+15309.8s 289 "false_confident_rate": 0.8856267299327798
+15309.8s 290 }
+15499.4s 291 Statistical rigor (ConvNeXt-V2-Tiny alone): {
+15499.4s 292 "b7_macro_auroc_bootstrap_ci": {
+15499.4s 293 "mean": 0.8077333590794405,
+15499.4s 294 "std": 0.0035288118684990042,
+15499.4s 295 "ci_lower": 0.8007106893863797,
+15499.4s 296 "ci_upper": 0.8146118294064264,
+15499.4s 297 "n_valid_samples": 2000
+15499.4s 298 },
+15499.4s 299 "note": "No second baseline trained in this run (ConvNeXt-V2-Tiny only) -- DeLong/paired-bootstrap comparison not applicable."
+15499.4s 300 }
+15500.2s 301 Unsupported operator aten::max_pool2d encountered 1 time(s)
+15500.2s 302 
+15500.2s 303 Unsupported operator aten::max_pool2d encountered 1 time(s)
+15500.2s 304 Unsupported operator aten::tanh encountered 2 time(s)
+15500.2s 305 
+15500.2s 306 Unsupported operator aten::tanh encountered 2 time(s)
+15500.2s 307 Unsupported operator aten::mul encountered 74 time(s)
+15500.2s 308 
+15500.2s 309 Unsupported operator aten::mul encountered 74 time(s)
+15500.2s 310 Unsupported operator aten::sigmoid encountered 2 time(s)
+15500.2s 311 
+15500.2s 312 Unsupported operator aten::sigmoid encountered 2 time(s)
+15500.2s 313 Unsupported operator aten::add encountered 79 time(s)
+15500.2s 314 
+15500.2s 315 Unsupported operator aten::add encountered 79 time(s)
+15500.3s 316 Unsupported operator aten::affine_grid_generator encountered 1 time(s)
+15500.3s 317 
+15500.3s 318 Unsupported operator aten::affine_grid_generator encountered 1 time(s)
+15500.3s 319 Unsupported operator prim::PythonOp._NoopSaveInputs encountered 22 time(s)
+15500.3s 320 
+15500.3s 321 Unsupported operator prim::PythonOp._NoopSaveInputs encountered 22 time(s)
+15500.3s 322 Unsupported operator aten::pow encountered 36 time(s)
+15500.3s 323 
+15500.3s 324 Unsupported operator aten::pow encountered 36 time(s)
+15500.3s 325 Unsupported operator aten::div encountered 2 time(s)
+15500.3s 326 
+15500.3s 327 Unsupported operator aten::div encountered 2 time(s)
+15500.3s 328 Unsupported operator aten::unflatten encountered 2 time(s)
+15500.3s 329 
+15500.3s 330 Unsupported operator aten::unflatten encountered 2 time(s)
+15500.3s 331 Unsupported operator aten::softmax encountered 2 time(s)
+15500.3s 332 
+15500.3s 333 Unsupported operator aten::softmax encountered 2 time(s)
+15500.3s 334 Unsupported operator aten::gelu encountered 2 time(s)
+15500.3s 335 
+15500.3s 336 Unsupported operator aten::gelu encountered 2 time(s)
+15500.3s 337 The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+15500.3s 338 backbone.backbone.head, backbone.backbone.head.drop, backbone.backbone.head.global_pool, backbone.backbone.head.norm, label_graph.layers.0.attn.out_proj, label_graph.layers.1.attn.out_proj, recon_head, recon_head.decoder, recon_head.decoder.0, recon_head.decoder.1, recon_head.decoder.10, recon_head.decoder.11, recon_head.decoder.12, recon_head.decoder.13, recon_head.decoder.2, recon_head.decoder.3, recon_head.decoder.4, recon_head.decoder.5, recon_head.decoder.6, recon_head.decoder.7, recon_head.decoder.8, recon_head.decoder.9, recon_loss_fn
+15500.3s 339 
+15500.3s 340 The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+15500.3s 341 backbone.backbone.head, backbone.backbone.head.drop, backbone.backbone.head.global_pool, backbone.backbone.head.norm, label_graph.layers.0.attn.out_proj, label_graph.layers.1.attn.out_proj, recon_head, recon_head.decoder, recon_head.decoder.0, recon_head.decoder.1, recon_head.decoder.10, recon_head.decoder.11, recon_head.decoder.12, recon_head.decoder.13, recon_head.decoder.2, recon_head.decoder.3, recon_head.decoder.4, recon_head.decoder.5, recon_head.decoder.6, recon_head.decoder.7, recon_head.decoder.8, recon_head.decoder.9, recon_loss_fn
+15500.3s 342 Computational complexity: {
+15500.3s 343 "total_params": 29681998,
+15500.3s 344 "trainable_params": 29681998,
+15500.3s 345 "flops": 12513599616.0,
+15500.3s 346 "model": "ConvFormerS18_SAIL_only"
+15500.3s 347 }
+15500.9s 348 [saved] robustness curve
+15509.1s 349 [saved] test-set ROC/PR grids + confusion matrices
+15509.5s 350 [saved] performance-vs-prevalence
+15863.9s 351 [saved] 16 Grad-CAM overlays -> results/figures/gradcam_examples
+15875.7s 352 {
+15875.7s 353 "image_level_macro_auroc": 0.8079660222790969,
+15875.7s 354 "patient_level_macro_auroc": 0.923130046896101,
+15875.7s 355 "image_level_macro_f1": 0.3209111809687649,
+15875.7s 356 "patient_level_macro_f1": 0.6316231302765625,
+15875.7s 357 "note": "Patient-level numbers are a secondary robustness check, never the headline result \u2014 multiple images per patient must not be treated as independent samples."
+15875.7s 358 }
+15875.7s 359 [saved] results/secondary_analyses/patient_vs_image_level.json
+15875.7s 360 [saved] results/secondary_analyses/patient_level_metrics.json
+15879.0s 361 {
+15879.0s 362 "F": {
+15879.0s 363 "n": 10714,
+15879.0s 364 "macro_auroc": 0.8041571705604188,
+15879.0s 365 "macro_auprc": 0.2695433568109772,
+15879.0s 366 "macro_f1": 0.31757082602277953,
+15879.0s 367 "mean_sensitivity": 0.433284550110693,
+15879.0s 368 "mean_specificity": 0.8917035098316924
+15879.0s 369 },
+15879.0s 370 "M": {
+15879.0s 371 "n": 14882,
+15879.0s 372 "macro_auroc": 0.8103654666746983,
+15879.0s 373 "macro_auprc": 0.2660787920998197,
+15879.0s 374 "macro_f1": 0.3220990706510989,
+15879.0s 375 "mean_sensitivity": 0.44492632134235083,
+15879.0s 376 "mean_specificity": 0.8856298408664636
+15879.0s 377 }
+15879.0s 378 }
+15879.0s 379 [saved] results/secondary_analyses/fairness_gender.json
+15882.9s 380 {
+15882.9s 381 "80-120": {
+15882.9s 382 "n": 252,
+15882.9s 383 "macro_auroc": 0.788525861856958,
+15882.9s 384 "macro_auprc": 0.28976588712275736,
+15882.9s 385 "macro_f1": 0.299625719365669,
+15882.9s 386 "mean_sensitivity": 0.43729345198239206,
+15882.9s 387 "mean_specificity": 0.8728462555066494
+15882.9s 388 },
+15882.9s 389 "60-80": {
+15882.9s 390 "n": 5826,
+15882.9s 391 "macro_auroc": 0.8012154473966264,
+15882.9s 392 "macro_auprc": 0.2607099603794939,
+15882.9s 393 "macro_f1": 0.31816463699356995,
+15882.9s 394 "mean_sensitivity": 0.43995350925900567,
+15882.9s 395 "mean_specificity": 0.8855017646151294
+15882.9s 396 },
+15882.9s 397 "40-60": {
+15882.9s 398 "n": 11224,
+15882.9s 399 "macro_auroc": 0.8020348805256374,
+15882.9s 400 "macro_auprc": 0.26883664039123767,
+15882.9s 401 "macro_f1": 0.3193618211055997,
+15882.9s 402 "mean_sensitivity": 0.4483289239427069,
+15882.9s 403 "mean_specificity": 0.882420164783494
+15882.9s 404 },
+15882.9s 405 "18-40": {
+15882.9s 406 "n": 7239,
+15882.9s 407 "macro_auroc": 0.7851624322443058,
+15882.9s 408 "macro_auprc": 0.262138162305008,
+15882.9s 409 "macro_f1": 0.313237340133916,
+15882.9s 410 "mean_sensitivity": 0.42637657707029936,
+15882.9s 411 "mean_specificity": 0.8986765863359151
+15882.9s 412 },
+15882.9s 413 "0-18": {
+15882.9s 414 "n": 1051,
+15882.9s 415 "macro_auroc": 0.7814956708005899,
+15882.9s 416 "macro_auprc": 0.2837247578096399,
+15882.9s 417 "macro_f1": 0.2959994830960179,
+15882.9s 418 "mean_sensitivity": 0.3570244213771992,
+15882.9s 419 "mean_specificity": 0.8922213204968007
+15882.9s 420 }
+15882.9s 421 }
+15882.9s 422 [saved] results/secondary_analyses/fairness_age.json
+15882.9s 423 {
+15882.9s 424 "dataset": "CheXpert",
+15882.9s 425 "status": "NOT YET COMPUTED",
+15882.9s 426 "compatible_labels": [
+15882.9s 427 "Atelectasis",
+15882.9s 428 "Cardiomegaly",
+15882.9s 429 "Consolidation",
+15882.9s 430 "Edema",
+15882.9s 431 "Effusion",
+15882.9s 432 "Pneumonia",
+15882.9s 433 "Pneumothorax"
+15882.9s 434 ],
+15882.9s 435 "label_mapping_notes": "CheXpert uses uncertainty labels (-1) requiring an explicit policy (e.g. U-Ones/U-Zeros) before mapping to NIH14's binary indicators.",
+15882.9s 436 "zero_shot_auroc": "NOT YET COMPUTED",
+15882.9s 437 "domain_adapted_auroc": "NOT YET COMPUTED",
+15882.9s 438 "required_before_computing": [
+15882.9s 439 "Legitimate access to the raw images + labels",
+15882.9s 440 "An explicit, documented label-mapping policy (see notes above)",
+15882.9s 441 "A held-out (never-trained-on) subset of the external dataset",
+15882.9s 442 "Both a zero-shot transfer number AND a domain-adaptation upper bound (simple feature-alignment fine-tune), per Papers #17-#18 \u2014 never report zero-shot alone as if it were a ceiling."
+15882.9s 443 ]
+15882.9s 444 }
+15882.9s 445 [saved] results/secondary_analyses/external_validation_stub.json
+15885.9s 446 table_dataset_characteristics: 7 rows written.
+15885.9s 447 table_disease_prevalence: 14 rows written.
+15885.9s 448 table_backbone_comparison: 6 rows written.
+15885.9s 449 table_ablation_study: 12 rows written.
+15885.9s 450 table_five_fold_cv: 7 rows written.
+15885.9s 451 table_per_disease_final_test: 84 rows written.
+15885.9s 452 table_calibration_results: 5 rows written.
+15885.9s 453 table_robustness_results: 24 rows written.
+15885.9s 454 table_computational_complexity: 1 rows written.
+15885.9s 455 table_comparison_with_published: 3 rows written.
+15885.9s 456 Wrote final report -> results/final_report/REPORT.md
+15885.9s 457 Final report written to results/final_report/REPORT.md
+15885.9s 458 
+15885.9s 459 We do not claim that ASPP, spatial-attention ROI gating, label-graph attention, or reconstruction-based regularization are individually novel — each is adapted from a specific prior CXR study. The contribution is their scientifically motivated integration into a single architecture, evaluated under patient-level cross-validation with calibration, uncertainty estimation, bounding-box-grounded explainability, corruption robustness, and statistical significance testing on NIH ChestX-ray14 — an evaluation rigor not jointly present in any single paper of the reviewed corpus.
+16039.3s 460 [bundle] 202 files -> /kaggle/working/results_bundle.zip (3102.1 MB)
+16039.3s 461 results/calibration: 5 files
+16039.3s 462 results/checkpoints: 10 files
+16039.3s 463 results/configs: 5 files
+16039.3s 464 results/explainability: 3 files
+16039.3s 465 results/figures: 70 files
+16039.3s 466 results/final_report: 11 files
+16039.3s 467 results/folds: 6 files
+16039.3s 468 results/histories: 5 files
+16039.3s 469 results/logs: 14 files
+16039.3s 470 results/metrics: 20 files
+16039.3s 471 results/predictions: 11 files
+16039.3s 472 results/robustness: 24 files
+16039.3s 473 results/secondary_analyses: 5 files
+16039.3s 474 results/statistical_tests: 4 files
+16039.3s 475 results/thresholds: 5 files
+16044.8s 476 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+16044.8s 477 cells[i][c] = re.sub('\\\\\|', '|', cell)
+16045.0s 478 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+16045.0s 479 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+16045.9s 480 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+16046.0s 481 [NbConvertApp] Writing 566421 bytes to __notebook__.ipynb
+16048.4s 482 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+16050.3s 483 [NbConvertApp] Writing 1749737 bytes to __results__.html
